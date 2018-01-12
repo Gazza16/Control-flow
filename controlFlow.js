@@ -24,3 +24,46 @@ else if (carMake === 'other' || !hasKeys) {
 }
 
 else (console.log('Don\'t know'))
+
+
+
+//Using switch and case instead of else/if statements
+let colour = 'nay'
+
+switch (colour){
+	case 'orange':
+	console.log('Tim Roth');
+	break;
+
+	case 'white':
+	console.log('Harvey Keitel')
+	break;
+
+	case 'blue':
+	console.log('Eddie Bunker')
+	break;
+
+	case 'blonde':
+	console.log('Michael Madsen')
+	break;
+
+	default: 
+	console.log('Director')
+	break;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
